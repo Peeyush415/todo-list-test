@@ -20,10 +20,5 @@ pipeline {
                 // Add your deployment commands here
             }
         }
-        stage('sample') {
-            steps{
-                echo  "THIS IS ADDED SAMPLE Stages step"
-            }
-        }
     }
 }
